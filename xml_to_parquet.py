@@ -58,5 +58,5 @@ def xml_to_parquet(xml_data, output_file):
     # Save the DataFrame as a single Parquet file
     df.to_parquet(output_file, index=False)
 
-    return df[["LineRef", "PublishedLineName"]]
+    return df
 
