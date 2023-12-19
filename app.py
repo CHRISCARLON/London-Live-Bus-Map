@@ -28,7 +28,7 @@ def main():
     st.markdown("""
     **Version 3 Upcoming Features:**
     - Post code search: Zoom to an area based on a post code. 
-    - Areas of historic high congestion and disruption: Description TBC
+    - Incorporate and define 'Zones of Interest': For example, areas of historic high congestion and disruption.
     - Show published bus routes for each TFL service: Description TBC
     """)
 
