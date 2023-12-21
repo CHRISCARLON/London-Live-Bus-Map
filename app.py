@@ -48,7 +48,7 @@ def main():
         folium_static(updated_map, width=1500, height=800)
 
     # Refresh button for manual data reload
-    if st.button('🔄Load Data'):
+    if st.button('🔄 Load Data and Refresh Data'):
         refresh_data()
 
 
