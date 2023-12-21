@@ -8,7 +8,7 @@ from streamlit_folium import folium_static
 
 def main():
     st.set_page_config(layout="wide")
-    st.markdown("# :bus: Live London Bus Map (Version 1)")
+    st.markdown("# :bus: Live London Bus Map (Version 1.0)")
     st.markdown("""
     **Version 1 Features:**
     - Live location updates of buses in London (and surrounding areas) using DfT Open Bus Data.
