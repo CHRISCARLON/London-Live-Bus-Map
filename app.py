@@ -45,7 +45,7 @@ def main():
         geo_df = create_gdf(data)
         updated_map = plot_on_map(geo_df)
 
-        folium_static(updated_map, width=1500, height=800)
+        folium_static(updated_map, width=1100, height=800)
 
     # Refresh button for manual data reload
     if st.button('🔄 Load Data and Refresh Data'):
